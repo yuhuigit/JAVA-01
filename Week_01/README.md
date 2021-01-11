@@ -47,12 +47,12 @@ Hello, classLoader!
 
 ### 作业3、画一张图，展示 Xmx、Xms、Xmn、Meta、DirectMemory、Xss 这些内存参数的关系。
 
-Xmx : 堆的最大可用内存大小
-Xms：堆的初始内存大小
-Xmn：年轻代大小
--XX:MetaspaceSize:元空间初始大小
--XX:MaxMetaspaceSize:元空间的最大值
--XX: MaxDirectMemorysize最大堆外内存
+Xmx : 堆的最大可用内存大小<br/>
+Xms：堆的初始内存大小<br/>
+Xmn：年轻代大小<br/>
+-XX:MetaspaceSize:元空间初始大小<br/>
+-XX:MaxMetaspaceSize:元空间的最大值<br/>
+-XX: MaxDirectMemorysize最大堆外内存<br/>
 
 ![jvmm](src/homework3/jvm-heap-stack-meta-directmemory.jpg)
 
